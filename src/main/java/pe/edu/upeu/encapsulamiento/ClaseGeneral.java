@@ -11,8 +11,7 @@ public class ClaseGeneral {
         jugador.setEdad(36);
         jugador.setPosicon("Delantero");
         jugador.setNumeroCam(10);
-
-        System.out.println(jugador.toString());;
+        System.out.println(jugador);
     }
 
     public static void probar(){
@@ -28,9 +27,7 @@ public class ClaseGeneral {
         persona.setEdad(18);
         persona.setGenero('M');
         persona.saludo();
-
         probar();
-
         probarJugador();
     }
 }

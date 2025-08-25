@@ -9,17 +9,14 @@ public class Estudiante {
     }
 
     public String getCodigo() {
-
         return codigo;
     }
 
     public void setCodigo(String codigo) {
-
         this.codigo = codigo;
     }
 
     public String getCarrera() {
-
         return carrera;
     }
 

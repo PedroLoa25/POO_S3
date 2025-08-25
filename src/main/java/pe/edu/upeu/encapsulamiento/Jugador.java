@@ -4,8 +4,9 @@ import lombok.Data;
 import lombok.Getter;
 import lombok.Setter;
 
-@Getter
-@Setter
+/*@Getter
+@Setter*/
+@Data
 
 public class Jugador {
     private String nombre;
@@ -21,8 +22,7 @@ public class Jugador {
                 + "apellido: " + apellido + "\n"
                 + "edad: " + edad + "\n"
                 + "posicion: " + posicon + "\n"
-                + "numero camisas: " + numeroCam
-                ;
+                + "numero camisas: " + numeroCam;
     }
 
 }
