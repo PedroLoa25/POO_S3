@@ -18,11 +18,11 @@ public class Jugador {
     @Override
     public String toString() {
         return "El jugador tienes estas caracteristicas: \n"
-                + "nombre: " + nombre + "\n"
-                + "apellido: " + apellido + "\n"
-                + "edad: " + edad + "\n"
-                + "posicion: " + posicon + "\n"
-                + "numero camisas: " + numeroCam;
+                + "Nombre: " + nombre + "\n"
+                + "Apellido: " + apellido + "\n"
+                + "Edad: " + edad + "\n"
+                + "Posicion: " + posicon + "\n"
+                + "Numero camisas: " + numeroCam;
     }
 
 }
