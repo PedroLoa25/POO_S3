@@ -4,6 +4,17 @@ import pe.edu.upeu.encapsulamiento.modelo.Persona;
 
 public class ClaseGeneral {
 
+    public static void probarJugador(){
+        Jugador jugador = new Jugador();
+        jugador.setNombre("Lionel");
+        jugador.setApellido("Messi");
+        jugador.setEdad(36);
+        jugador.setPosicon("Delantero");
+        jugador.setNumeroCam(10);
+
+        System.out.println(jugador.toString());;
+    }
+
     public static void probar(){
         Estudiante estudiante=new Estudiante();
         estudiante.setCodigo("202513287");
@@ -19,5 +30,7 @@ public class ClaseGeneral {
         persona.saludo();
 
         probar();
+
+        probarJugador();
     }
 }
