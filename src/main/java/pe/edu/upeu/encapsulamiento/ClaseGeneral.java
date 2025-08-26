@@ -23,7 +23,7 @@ public class ClaseGeneral {
 
     public static void main(String[] args) {
         Persona persona=new Persona(); //objeto
-        persona.setNombre("Pedro");
+        persona.setNombre("Pedro Loayza");
         persona.setEdad(18);
         persona.setGenero('M');
         persona.saludo();
