@@ -24,7 +24,7 @@ class ClaseExterna2{
         ce.b = 20;
         ClaseExterna.ClaseInterna ci=ce.new ClaseInterna();
         System.out.println(ci.sumar());
-
+        //cambio
         ClaseExterna.ClaseInterna2 ci2=ce.new ClaseInterna2();
         ci2.restar();
         System.out.println(ci2.r);
