@@ -30,7 +30,9 @@ public class Persona {
     }
 
     public void saludo() {
-        System.out.println("Hola mi nombre es: " + nombre + " y mi edad es: " + edad);
+        System.out.println
+                ("Hola mi nombre es: "
+                + nombre + " y mi edad es: " + edad);
     }
 
 }
